@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+html, body, #__nuxt, #__layout {
+  font-family: 'Roboto', 'Arial', 'sans-serif';
+}
+
+.btn {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-weight: 500;
+  justify-content: center;
+  outline: none;
+  position: relative;
+  text-decoration: none;
+  text-indent: 0.0892857143em;
+  text-transform: uppercase;
+  transition-duration: .28s;
+  transition-property: box-shadow, transform, opacity;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  user-select: none;
+  cursor: pointer;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.usable {
+  cursor: pointer;
+}
+/*a.link  {*/
+/*  text-decoration: none !important;*/
+/*}*/
